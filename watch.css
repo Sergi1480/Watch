@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to right, #000000, #333333);
+    color: white;
+    font-family:'Wathenda Signature 2', cursive;
+
+}
+
+
+h1 {
+    background: linear-gradient(90deg, gold, silver, gold);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    font-family: Arial, sans-serif;
+    text-align: left;
+
+    animation: shine 4s linear infinite;
+}
+
+@keyframes shine {
+    0% {
+        background-position: 0%;
+    }
+    100% {
+        background-position: 200%;
+    }
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+}
