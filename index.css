@@ -2,7 +2,7 @@ body {
     background: linear-gradient(to right, #000000, #333333);
     color: white;
     font-family:'Wathenda Signature 2', cursive;
-
+   
 }
 
 
@@ -35,4 +35,22 @@ h1 {
     gap: 20px;
     padding: 20px;
 
+}
+
+.contenu {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.carousel {
+margin: auto; 
+   max-width: 500px;
+}
+
+.d-block.w-100 {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
