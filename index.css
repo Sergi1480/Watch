@@ -39,18 +39,31 @@ h1 {
 
 .contenu {
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
     margin: 20px;
 }
 
 .carousel {
 margin: auto; 
-   max-width: 500px;
+   max-width: 800px;
+   flex-grow: 0;
+   flex-basis: 700px;
+   flex-shrink: 200px;
 }
 
 .d-block.w-100 {
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.layout {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
 }
