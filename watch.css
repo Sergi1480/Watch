@@ -47,7 +47,7 @@ margin: auto;
    max-width: 800px;
    flex-grow: 0;
    flex-basis: 700px;
-   flex-shrink: 200px;
+   flex-shrink: 1;
 }
 
 .d-block.w-100 {
@@ -67,3 +67,43 @@ margin: auto;
         flex-direction: column;
     }
 }
+
+.carousel-caption {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+    background-size: 200%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+#btn-commander {
+    background-color: gold;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+      margin: 0 auto; 
+      display: block;
+}
+
+#btn-commander:hover {
+    background-color: black;
+    color: gold;
+    background: linear-gradient(to right, gold, silver, gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation : shine 4s linear infinite; 
+}
+    @keyframes shine {
+        0% {
+            background-position: 0%;
+        }
+        100% {
+            background-position: 200%;
+        }
+    }
